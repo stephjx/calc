@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme -->
+    <style name="Theme.Calculator" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/lavender_primary</item>
+        <item name="colorPrimaryVariant">@color/lavender_primary_variant</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <!-- Secondary brand color -->
+        <item name="colorSecondary">@color/lavender_secondary</item>
+        <item name="colorSecondaryVariant">@color/lavender_dark</item>
+        <item name="colorOnSecondary">@color/white</item>
+        
+        <!-- Status bar color -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        
+        <!-- Background color -->
+        <item name="android:windowBackground">@color/lavender_background</item>
+        <item name="backgroundColor">@color/lavender_background</item>
+        
+        <!-- Text appearance -->
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+    </style>
+    
+    <!-- Display text style -->
+    <style name="DisplayTextStyle">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/text_display</item>
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">end</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:background">@color/lavender_primary</item>
+    </style>
+    
+    <!-- Button styles -->
+    <style name="CalculatorButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:gravity">center</item>
+        <item name="android:elevation">4dp</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="backgroundTint">@color/button_number</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="cornerRadius">8dp</item>
+    </style>
+    
+    <style name="CalculatorButton.Operator">
+        <item name="backgroundTint">@color/button_operator</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    
+    <style name="CalculatorButton.Function">
+        <item name="backgroundTint">@color/button_function</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    
+    <style name="CalculatorButton.Special">
+        <item name="backgroundTint">@color/button_special</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+</resources>

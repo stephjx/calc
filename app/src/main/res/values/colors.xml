@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Lavender theme colors -->
+    <color name="lavender_primary">#9D84B7</color>
+    <color name="lavender_primary_variant">#7B5FA3</color>
+    <color name="lavender_secondary">#B19FDE</color>
+    <color name="lavender_background">#F5F0FF</color>
+    <color name="lavender_light">#E6E0FF</color>
+    <color name="lavender_dark">#7D66A9</color>
+    
+    <!-- Function button colors -->
+    <color name="button_function">#B19FDE</color>
+    <color name="button_number">#FFFFFF</color>
+    <color name="button_operator">#9D84B7</color>
+    <color name="button_special">#FF6B6B</color>
+    
+    <!-- Text colors -->
+    <color name="text_primary">#333333</color>
+    <color name="text_secondary">#666666</color>
+    <color name="text_display">#FFFFFF</color>
+    <color name="text_error">#FF4444</color>
+    
+    <!-- Standard colors -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+</resources>
